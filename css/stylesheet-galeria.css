@@ -1,0 +1,352 @@
+* {
+	scroll-behavior: smooth;
+}
+
+@font-face{
+	font-family: 'Delfino';
+	src: url('../fonts/Delfino.woff') format('woff');
+}
+
+body{
+	overflow-x: hidden;
+	background-color: #142552 !important;
+	cursor: url('../images/cursor.png'), auto;
+}
+
+.logo{
+	margin-right: 10px;
+	width: 136.25px;
+	height: 60.15px;
+}
+
+.discord-nav{
+	margin-left: 10px;
+	width: 52.6px;
+	height: 60px;
+}
+
+/*--------Nav Bar--------*/
+.bg-light {
+    --bs-bg-opacity: 0.8 !important;
+    background-color: black !important;
+}
+
+.btn-outline-primary {
+	font-family: 'Delfino' !important;
+    --bs-btn-color: #505050 !important;
+    --bs-btn-bg: #bef2ff !important;
+    --bs-btn-border-color: #1f79e1 !important;
+    --bs-btn-hover-bg: #77d4f9 !important;
+    --bs-btn-border-width: 4px !important;
+}
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1.25rem;
+    --bs-btn-border-radius: 1.6rem !important;
+}
+
+
+a{
+	cursor: url('../images/cursor2.png'), auto;
+}
+
+.anchor{
+	height:70px;
+	margin-top: -92px; /*same height as header*/;
+}
+
+.icon{
+	width: 35px;
+	height: 35px;
+	margin: 0px 3px;
+}
+
+.a-button{
+	width: 60px;
+	height: 60px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin: 30px 50px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+
+
+
+.main-title{
+	max-width: fit-content;
+	min-height: 266px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	margin-top: 100px;
+	padding: 18px 60px;
+	background-color: #23547A;
+	border-radius: 100px;
+
+	display: grid;
+    place-items: center;
+    justify-content: center;
+}
+
+.main-title-head{
+	margin: 0px;
+	margin-bottom: -23px;
+}
+
+h4{
+	text-align: center;
+}
+
+.main-title-name{
+	font-family: 'Delfino';
+	font-size: 50px;
+	color: #fff;
+}
+
+.title-down{
+	margin-top: 200px;
+}
+
+.dome{
+	width: 64.5;
+	height: 69px;
+	margin: 25px;
+	padding-top: 0px;
+	position: relative;
+    top: -10px;
+}
+
+audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*--------MAIN CONTENT--------*/
+
+.main-content{
+	font-family: 'Delfino';
+	font-size: 30px;
+	color: #fff;
+}
+
+.wrapper{
+	width: inherit;
+	height: fit-content;
+	background-color: #23547A;
+	padding: 60px;
+	margin-bottom: 100px;
+	overflow: clip;
+	display: flex;
+    flex-direction: column;
+}
+
+.index-titles{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+#galeria-main-title{
+	right: -40px;
+}
+
+.wrapper img:hover {
+	opacity: 0.7;
+}
+
+figure {
+	background-color: #fff;
+	padding: 0px 7px;
+	padding-bottom: 8px;
+	margin: 0rem 1rem 4rem !important;
+}
+
+figcaption{
+	font-family: "Arial";
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+
+
+
+
+
+
+.submit-button{
+	font-family: "Arial";
+	font-size: 20px;
+	padding: 10px 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+.footer-donation{
+	width: inherit;
+	height: fit-content;
+	background-color: #E9B9C9;
+	margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.paypalluma{
+	display: inline-block;
+}
+
+.hungryluma{
+	position: relative;
+	width: 333px;
+	height: 210px;
+}
+
+#hg2
+{
+	display: none;
+}
+
+.footer-paragraph{
+	max-width: 590px;
+	font-size: 35px;
+	text-shadow: 4px 4px #E181AA;
+}
+
+.footer-contact{
+	width: inherit;
+	height: fit-content;
+	background-color: #242234;
+	padding: 100px;
+	display: grid;
+	place-items: center;
+}
+
+.contact-links{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-link{
+	height: 100px;
+	padding: 0px 20px;
+	opacity: 0.8;
+	margin-bottom: 50px;
+}
+
+.contact-link:hover{
+	opacity: 1;
+}
+
+.footer-text{
+	font-family: "Arial" !important;
+	max-width: 500px;
+	font-size: 23px;
+	text-align: center;
+	color: #686D7B;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+#storybook{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 145px;
+	margin-top: -30px;
+	margin-bottom: 35px;
+}
+
+
+
+@media only screen and (max-width: 509px) {
+	.dome {
+		display: none;
+	}
+}
